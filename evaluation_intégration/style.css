@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family:'Lato';
+}
+@media screen and (max-width: 500px){
+    
+img{
+    display: grid;
+    height: 30px;
+    width: 160px;
+}
+.banner{
+  text-align: center;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: 380px 120px;
+    height: 70px;
+    padding: 2em;
+}
+
+.title{
+    color: black;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+}
+h2{
+    padding-right: 20px;
+}
+.banner p{
+    text-align: center;
+    padding: 20px;
+    
+}
+.btn {
+    text-align: center;
+    border-radius: 50px;
+    background-color: #0AA8A7;
+    padding: 20px;
+    color: white;
+    border: none;
+}
+svg{
+    padding: 20px;
+}
+.banner-art{
+    text-align: center;
+}
+.code{
+    height: 50px;
+    width: 50px;
+}
+.object{
+    height: 50px;
+    width: 50px;
+}
+.faster{
+    height: 50px;
+    width: 50px;
+}
+.cloud{
+    height: 50px;
+    width: 50px;
+}
+.cta{
+    margin-left:  30px;
+    padding: 20px;
+    text-align: justify;
+}
+.cta a{
+    color: #0AA8A7;
+    padding-top: 10px;
+}
+.main-contact{
+    text-align: center;
+}
+.main-contact p{
+    padding: 20px;
+}
+footer{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.footer-company{
+    display: inline-block;
+    margin-left: 20px;
+    padding-bottom: 30px;
+}
+.footer-company a{
+    color: #222;
+}
+.footer-product{
+  margin-left: 50px;
+  padding-bottom: 30px;
+}
+.footer-product a {
+    color: #222;
+}
+.footer-support{
+    display: inline-block;
+    margin-left: 20px;
+}
+.footer-support a{
+    color: #222;
+}
+
+.footer-bigspring{
+    display: inline-block;
+    margin-left: 50px;
+}
+.svg-reseau{
+    padding: 0;
+    margin: 8px;
+}
+.footer-word{
+    text-align: center;
+    padding: 15px;
+}
+}
